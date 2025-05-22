@@ -63,16 +63,6 @@ O script irá:
 - Ativar `starship` e PATH no `.zshrc`
 - Iniciar `hyprpaper` e aplicar o wallpaper (se estiver presente)
 
----
-
-## 🖼️ Prints (Exemplo)
-
-> Inclua suas imagens reais após subir ao GitHub na pasta `previews/`
-
-![desktop-blur](./previews/desktop-blur.png)
-![waybar-center](./previews/waybar-center.png)
-
----
 
 ## 🧪 Tecnologias
 
