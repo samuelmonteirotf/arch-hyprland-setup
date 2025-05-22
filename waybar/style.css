@@ -1,0 +1,35 @@
+#custom-workspace_icons {
+  font-size: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-shadow: 0 0 5px #00ff88, 0 0 10px #00ff88;
+  color: #00ff88;
+}
+
+#network {
+  color: #00ff88;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+#cpu, #memory, #clock {
+  color: #00ff88;
+  padding: 0 10px;
+}
+
+#custom-network_status {
+  color: #00ff88;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+* {
+  background-color: rgba(0, 0, 0, 0.6);
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 14px;
+  border-radius: 0px;
+}
+
+

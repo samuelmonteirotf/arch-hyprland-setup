@@ -1,0 +1,41 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 30,
+
+  "modules-left": [
+    "custom/network_status"
+  ],
+  "modules-center": [
+    "custom/workspace_icons"
+  ],
+  "modules-right": [
+    "cpu",
+    "memory",
+    "clock"
+  ],
+
+  "custom/network_status": {
+    "exec": "~/.config/waybar/scripts/network_status.sh",
+    "interval": 1,
+    "format": "{}"
+  },
+
+  "custom/workspace_icons": {
+    "exec": "~/.config/waybar/scripts/workspace_icons.sh",
+    "interval": 1
+  },
+
+  "cpu": {
+    "format": "🧠 {usage}%"
+  },
+
+  "memory": {
+    "format": "🧬 {}%"
+  },
+
+  "clock": {
+    "format": "🕒 {:%H:%M:%S}"
+  }
+}
+

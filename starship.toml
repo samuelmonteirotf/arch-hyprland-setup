@@ -1,0 +1,40 @@
+add_newline = true
+
+format = """
+[┌╴](white)[$username](#0AF53D)[  ](#0808FE)[$hostname](white)\
+| $all[└─](white) $character\
+"""
+
+[character]
+success_symbol = "$ "
+error_symbol = "#"
+format = "" 
+
+[username]
+show_always = true
+style_user = "#0AF53D"
+style_root = "red bold"
+format = "[$user]($style)"
+disabled = false
+
+[hostname]
+ssh_only = false
+format = "[$hostname](white)"
+trim_at = ".companyname.com"
+disabled = false
+
+[os]
+style = "white"
+format = " on [$symbol$arch$name](style)"
+
+[os.symbols]
+Windows = "🔷"
+Linux = ""
+
+[cmd_duration]
+disabled = true
+
+[directory]
+style = "white"
+format = "[$path](white)"
+

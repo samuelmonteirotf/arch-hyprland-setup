@@ -1,0 +1,33 @@
+# Arquivos temporários e backups
+*.bak
+*.swp
+*.lock
+*~
+
+# Cache do Neovim
+nvim/lazy-lock.json
+
+# Histórico de terminais/sessões
+kitty/.bash_history
+zsh/.zsh_history
+
+# Arquivos locais de apps não essenciais
+libreoffice/
+xfce4/
+vlc/
+Thunar/
+nwg-look/
+pulse/
+qt5ct/
+qt6ct/
+viewnior/
+dconf/
+autostart/
+mimeapps.list
+QtProject.conf
+user-dirs.*
+xsettingsd/
+
+# Evitar indexar imagens grandes ou pessoais
+wallpapers/
+
