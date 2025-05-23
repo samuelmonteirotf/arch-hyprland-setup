@@ -11,7 +11,7 @@ nvim/lazy-lock.json
 kitty/.bash_history
 zsh/.zsh_history
 
-# Arquivos locais de apps não essenciais
+# Arquivos locais
 libreoffice/
 xfce4/
 vlc/
@@ -28,6 +28,6 @@ QtProject.conf
 user-dirs.*
 xsettingsd/
 
-# Evitar indexar imagens grandes ou pessoais
+# Wallpaper
 wallpapers/
 
